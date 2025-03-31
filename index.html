@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Technologies Assignment</title>
+</head>
+<body>
+    <h1>Web Technologies Assignment</h1>
+
+    <h2>Instructions</h2>
+
+    <ol type="I">
+        <li>Create an <code>index.html</code> file.</li>
+        <li>Add an ordered list with roman numerals.</li>
+        <li>Add an external image from pexels.com.</li>
+        <li>Add a table of 5 contacts with name, address, mobile and emails.</li>
+        <li>Add a registration form.</li>
+    </ol>
+
+    <h2>Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Beautiful Scenery" width="500">
+
+    <h2>Contact Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St</td>
+                <td>123-456-7890</td>
+                <td>john.doe@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak Ave</td>
+                <td>987-654-3210</td>
+                <td>jane.smith@example.com</td>
+            </tr>
+            <tr>
+                <td>David Lee</td>
+                <td>789 Pine Ln</td>
+                <td>555-123-4567</td>
+                <td>david.lee@example.com</td>
+            </tr>
+            <tr>
+                <td>Sarah Jones</td>
+                <td>101 Elm Rd</td>
+                <td>111-222-3333</td>
+                <td>sarah.jones@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>202 Birch Ct</td>
+                <td>444-555-6666</td>
+                <td>michael.brown@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form>
+        <fieldset>
+            <legend>Registration Details</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label>Interests:</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label><br><br>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
